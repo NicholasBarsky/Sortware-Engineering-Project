@@ -1,0 +1,99 @@
+.Database img{
+                height: 350px;
+                width: 350px;
+                position: absolute;
+                left: 1050px;
+                top: 900px;
+                object-fit:scale-down;
+                padding: 30px;
+                
+            }
+            .Database h2{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 1150px;
+                top: 1260px;
+                padding: 10px;
+            }
+            .Database h3{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 1165px;
+                top: 1300px;
+                padding: 10px;
+            }
+            .Database p{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 1155px;
+                top: 1330px;
+                padding: 10px;
+            }
+            .Back-end img{
+                height: 270px;
+                width: 290px;
+                position: absolute;
+                left: 590px;
+                top: 940px;
+                object-fit:scale-down;
+                padding: 30px;
+                border: 1px solid black;
+            }
+            .Back-end h2{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 680px;
+                top: 1260px;
+                padding: 10px;
+            }
+            .Back-end h3{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 665px;
+                top: 1300px;
+                padding: 10px;
+            }
+            .Back-end p{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 680px;
+                top: 1330px;
+                padding: 10px;
+            }
+            .Front-end img{
+                height: 350px;
+                width: 350px;
+                position: absolute;
+                left: 100px;
+                top: 900px;
+                object-fit:scale-down;
+                padding: 30px;
+            }
+            .Front-end h2{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 200px;
+                top: 1260px;
+                padding: 10px;
+            }
+            .Front-end h3{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 200px;
+                top: 1300px;
+                padding: 10px;
+            }
+            .Front-end p{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 175px;
+                top: 1330px;
+                padding: 10px;
+            }
+            h1{
+                font-family: 'Times New Roman', Times, serif;
+                position: absolute;
+                left: 645px;
+                top: 800px;
+                padding: 10px;
+            }

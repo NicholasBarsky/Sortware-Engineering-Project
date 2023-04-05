@@ -1,0 +1,907 @@
+ h1{
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    left: 20px;
+    top: 850px;
+    }
+p{
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 970px;
+    }
+div img:hover{
+    filter:brightness(0.5);
+    }        
+.Keys-from-the-Golden-Vault{
+    position: absolute;
+    left: 130px;
+    top: 1100px;
+    }
+.Keys-from-the-Golden-Vault img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+    }
+.img_descrtiption_KftGV{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
+.Keys-from-the-Golden-Vault:hover .img_descrtiption_KftGV{
+    visibility: visible;
+    opacity: 1;
+    }
+
+.baldurs-gate-descent-into-avernus{
+    position: absolute;
+    left: 431px;
+    top: 1100px;
+    }
+.baldurs-gate-descent-into-avernus img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+    }
+.img_descrtiption_BGDiA{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
+.baldurs-gate-descent-into-avernus:hover .img_descrtiption_BGDiA{
+    visibility: visible;
+    opacity: 1;
+    }
+
+.candlekeep-mysteries{
+        position: absolute;
+        left: 732px;
+        top: 1100px;
+    }
+.candlekeep-mysteries img{
+       height: 350px;
+       width: 300px;
+       padding: 10px; 
+    }
+.img_descrtiption_CM{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        width: 87%;
+        max-width: 300px;
+        height: 24%;
+        max-height: 350px;
+        padding: 10px;
+        left: 12px;
+        top: 250px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+.candlekeep-mysteries:hover .img_descrtiption_CM{
+        visibility: visible;
+        opacity: 1;
+    }
+
+.waterdeep-dragon-heist{
+        position: absolute;
+        left: 1034px;
+        top: 1100px;
+    }
+.waterdeep-dragon-heist img{
+        height: 350px;
+        width: 300px;
+        padding: 10px; 
+    }
+.img_descrtiption_WDH{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        width: 87%;
+        max-width: 300px;
+        height: 24%;
+        max-height: 350px;
+        padding: 10px;
+        left: 12px;
+        top: 250px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+.waterdeep-dragon-heist:hover .img_descrtiption_WDH{
+        visibility: visible;
+        opacity: 1;
+    }
+
+.curse-of-strahd{
+        position: absolute;
+        left: 130px;
+        top: 1451px;
+    }
+.curse-of-strahd img{
+        height: 350px;
+        width: 300px;
+        padding: 10px; 
+    }
+.img_descrtiption_CoS{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        width: 87%;
+        max-width: 300px;
+        height: 24%;
+        max-height: 350px;
+        padding: 10px;
+        left: 12px;
+        top: 250px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+.curse-of-strahd:hover .img_descrtiption_CoS{
+        visibility: visible;
+        opacity: 1;
+    }
+
+.critical-role-call-of-the-netherdeep{
+    position: absolute;
+    left: 431px;
+    top: 1451px;
+    }
+.critical-role-call-of-the-netherdeep img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+    }
+.img_descrtiption_CRCotN{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
+.critical-role-call-of-the-netherdeep:hover .img_descrtiption_CRCotN{
+    visibility: visible;
+    opacity: 1;
+    }
+
+.divine-contention{
+    position: absolute;
+    left: 732px;
+    top: 1451px;
+    }
+.divine-contention img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+    }
+.img_descrtiption_DC{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
+.divine-contention:hover .img_descrtiption_DC{
+    visibility: visible;
+    opacity: 1;
+    }
+
+.dragon-of-icespire-peak{
+        position: absolute;
+        left: 1034px;
+        top: 1451px;
+    }
+.dragon-of-icespire-peak img{
+        height: 350px;
+        width: 300px;
+        padding: 10px; 
+    }
+.img_descrtiption_DoIP{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        width: 87%;
+        max-width: 300px;
+        height: 24%;
+        max-height: 350px;
+        padding: 10px;
+        left: 12px;
+        top: 250px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+.dragon-of-icespire-peak:hover .img_descrtiption_DoIP{
+        visibility: visible;
+        opacity: 1;
+    }
+
+.dragons-of-stormwreck-isle{
+            position: absolute;
+            left: 130px;
+            top: 1802px;
+    }
+.dragons-of-stormwreck-isle img{
+            height: 350px;
+            width: 300px;
+            padding: 10px; 
+    }
+.img_descrtiption_DoSI{
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            width: 87%;
+            max-width: 300px;
+            height: 24%;
+            max-height: 350px;
+            padding: 10px;
+            left: 12px;
+            top: 250px;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s;
+    }
+.dragons-of-stormwreck-isle:hover .img_descrtiption_DoSI{
+            visibility: visible;
+            opacity: 1;
+    }
+
+.ghosts-of-saltmarsh{
+        position: absolute;
+        left: 431px;
+        top: 1802px;
+}
+.ghosts-of-saltmarsh img{
+        height: 350px;
+        width: 300px;
+        padding: 10px; 
+}
+.img_descrtiption_GoS{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        width: 87%;
+        max-width: 300px;
+        height: 24%;
+        max-height: 350px;
+        padding: 10px;
+        left: 12px;
+        top: 250px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+}
+.ghosts-of-saltmarsh:hover .img_descrtiption_GoS{
+        visibility: visible;
+        opacity: 1;
+}
+
+.hunt-for-the-thessalhydr{
+    position: absolute;
+    left: 732px;
+    top: 1802px;
+}
+.hunt-for-the-thessalhydr img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_HftT{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hunt-for-the-thessalhydr:hover .img_descrtiption_HftT{
+    visibility: visible;
+    opacity: 1;
+}
+
+.icewind-dale-rime-of-the-frostmaiden{
+    position: absolute;
+    left: 1034px;
+    top: 1802px;
+}
+.icewind-dale-rime-of-the-frostmaiden img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_IDRotF{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.icewind-dale-rime-of-the-frostmaiden:hover .img_descrtiption_IDRotF{
+    visibility: visible;
+    opacity: 1;
+}
+
+.infernal-machine-rebuild{
+    position: absolute;
+    left: 130px;
+    top: 2154px;
+}
+.infernal-machine-rebuild img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_IMR{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.infernal-machine-rebuild:hover .img_descrtiption_IMR{
+    visibility: visible;
+    opacity: 1;
+}
+
+.journeys-through-the-radiant-citadel{
+    position: absolute;
+    left: 431px;
+    top: 2154px;
+}
+.journeys-through-the-radiant-citadel img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_JttRC{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.journeys-through-the-radiant-citadel:hover .img_descrtiption_JttRC{
+    visibility: visible;
+    opacity: 1;
+}
+
+.lost-laboratory-of-kwalish{
+    position: absolute;
+    left: 732px;
+    top: 2154px;
+}
+.lost-laboratory-of-kwalish img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_LLoK{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.lost-laboratory-of-kwalish:hover .img_descrtiption_LLoK{
+    visibility: visible;
+    opacity: 1;
+}
+
+.locathah-rising{
+    position: absolute;
+    left: 1034px;
+    top: 2154px;
+}
+.locathah-rising img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_LR{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.locathah-rising:hover .img_descrtiption_LR{
+    visibility: visible;
+    opacity: 1;
+}
+
+.out-of-the-abyss{
+    position: absolute;
+    left: 130px;
+    top: 2506px;
+}
+.out-of-the-abyss img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_OofA{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.out-of-the-abyss:hover .img_descrtiption_OofA{
+    visibility: visible;
+    opacity: 1;
+}
+
+.princes-of-the-apocalypse{
+    position: absolute;
+    left: 431px;
+    top: 2506px;
+}
+.princes-of-the-apocalypse img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_PotA{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.princes-of-the-apocalypse:hover .img_descrtiption_Pota{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sleeping-dragons-wake{
+    position: absolute;
+    left: 431px;
+    top: 2506px;
+}
+.sleeping-dragons-wake img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_SDW{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.sleeping-dragons-wake:hover .img_descrtiption_SDW{
+    visibility: visible;
+    opacity: 1;
+}
+
+.storm-kings-thunder{
+    position: absolute;
+    left: 732px;
+    top: 2506px;
+}
+.storm-kings-thunder img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_SKT{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.storm-kings-thunder:hover .img_descrtiption_SKT{
+    visibility: visible;
+    opacity: 1;
+}
+
+.storm-lords-wrath{
+    position: absolute;
+    left: 1034px;
+    top: 2506px;
+}
+.storm-lords-wrath img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_SLW{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.storm-lords-wrath:hover .img_descrtiption_SLW{
+    visibility: visible;
+    opacity: 1;
+}
+
+.dragonlance-shadow-of-the-dragon-queen{
+    position: absolute;
+    left: 130px;
+    top: 2857px;
+}
+.dragonlance-shadow-of-the-dragon-queen img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_DSotDQ{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.dragonlance-shadow-of-the-dragon-queen:hover .img_descrtiption_DSotDQ{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tales-from-the-yawning-portal{
+    position: absolute;
+    left: 130px;
+    top: 2857px;
+}
+.tales-from-the-yawning-portal img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_TftYP{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tales-from-the-yawning-portal:hover .img_descrtiption_TftYP{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tomb-of-annihilation{
+    position: absolute;
+    left: 431px;
+    top: 2857px;
+}
+.tomb-of-annihilation img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_ToA{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tomb-of-annihilation:hover .img_descrtiption_ToA{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tyranny-of-dragons{
+    position: absolute;
+    left: 732px;
+    top: 2857px;
+}
+.tyranny-of-dragons img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_ToD{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tyranny-of-dragons:hover .img_descrtiption_ToD{
+    visibility: visible;
+    opacity: 1;
+}
+
+.the-wild-beyond-the-witchlight{
+    position: absolute;
+    left: 1034px;
+    top: 2857px;
+}
+.the-wild-beyond-the-witchlight img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_TWBtW{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.the-wild-beyond-the-witchlight:hover .img_descrtiption_TWBtW{
+    visibility: visible;
+    opacity: 1;
+}
+
+.waterdeep-dungeon-of-the-mad-mage{
+    position: absolute;
+    left: 130px;
+    top: 3208px;
+}
+.waterdeep-dungeon-of-the-mad-mage img{
+    height: 350px;
+    width: 300px;
+    padding: 10px; 
+}
+.img_descrtiption_WDotMM{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 87%;
+    max-width: 300px;
+    height: 24%;
+    max-height: 350px;
+    padding: 10px;
+    left: 12px;
+    top: 250px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.waterdeep-dungeon-of-the-mad-mage:hover .img_descrtiption_WDotMM{
+    visibility: visible;
+    opacity: 1;
+}
