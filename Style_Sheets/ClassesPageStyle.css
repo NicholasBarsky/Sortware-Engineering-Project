@@ -1,0 +1,179 @@
+.Title{
+    position: absolute;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    top: 850px;
+    left: 540px;
+    padding: 10px;
+}
+.Bar{
+    position: absolute;
+    text-align: center;
+    top: 970px;
+    left: 110px;
+}
+.Bar h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Bar p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Cle{
+    position: absolute;
+    text-align: center;
+    top: 970px;
+    left: 490px;
+}
+.Cle h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Cle p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Bard{
+    position: absolute;
+    text-align: center;
+    top: 970px;
+    left: 870px;
+}
+.Bard h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Bard p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Dru{
+    position: absolute;
+    text-align: center;
+    top: 970px;
+    left: 1250px;
+}
+.Dru h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Dru p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Fig{
+    position: absolute;
+    text-align: center;
+    top: 1220px;
+    left: 140px;
+}
+.Fig h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Fig p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Monk{
+    position: absolute;
+    text-align: center;
+    top: 1220px;
+    left: 490px;
+}
+.Monk h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Monk p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Pal{
+    position: absolute;
+    text-align: center;
+    top: 1220px;
+    left: 850px;
+}
+.Pal h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Pal p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Ran{
+    position: absolute;
+    text-align: center;
+    top: 1220px;
+    left: 1240px;
+}
+.Ran h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Ran p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Wiz{
+    position: absolute;
+    text-align: center;
+    top: 1470px;
+    left: 140px;
+}
+.Wiz h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Wiz p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.War{
+    position: absolute;
+    text-align: center;
+    top: 1470px;
+    left: 470px;
+}
+.War h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.War p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Sor{
+    position: absolute;
+    text-align: center;
+    top: 1470px;
+    left: 840px;
+}
+.Sor h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Sor p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Art{
+    position: absolute;
+    text-align: center;
+    top: 1470px;
+    left: 1220px;
+}
+.Art h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Art p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Blood{
+    position: absolute;
+    text-align: center;
+    top: 1720px;
+    left: 620px;
+}
+.Blood h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Blood p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+

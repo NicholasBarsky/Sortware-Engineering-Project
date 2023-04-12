@@ -7,11 +7,11 @@ body{
 }
 
 .Current{
-                background: rgba(188, 7, 7, 0.7);
-                border-radius: 6px;
-                color:rgb(0, 0, 0);
-                font-size: 20px;
-            }
+    background: rgba(188, 7, 7, 0.7);
+    border-radius: 6px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
 nav{
     position: fixed;
     z-index: 1;
@@ -28,8 +28,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     display: flex;
-	
-
 }
 nav .logo{
     padding: 22px 20px;
