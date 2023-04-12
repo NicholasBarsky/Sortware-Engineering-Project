@@ -1,13 +1,12 @@
 .Database img{
-                height: 350px;
-                width: 350px;
-                position: absolute;
-                left: 1050px;
-                top: 900px;
-                object-fit:scale-down;
-                padding: 30px;
-                
-            }
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 1050px;
+    top: 900px;
+    object-fit:scale-down;
+    padding: 30px;
+}
             .Database h2{
                 font-family: 'Times New Roman', Times, serif;
                 position: absolute;
