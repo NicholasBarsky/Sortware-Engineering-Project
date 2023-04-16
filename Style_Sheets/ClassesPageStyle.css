@@ -1,179 +1,38 @@
+.container{
+	margin-top: 5%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	gap:20px 10px;
+}
 .Title{
-    position: absolute;
+    margin-top:10%;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    top: 850px;
-    left: 540px;
-    padding: 10px;
+    font-size: 50px;  
 }
-.Bar{
-    position: absolute;
+h1{
+	margin-top:10%;
     text-align: center;
-    top: 970px;
-    left: 110px;
-}
-.Bar h1{
     font-family: 'Times New Roman', Times, serif;
-}
-.Bar p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Cle{
-    position: absolute;
+    font-size: 40px;          
+}     
+p{
     text-align: center;
-    top: 970px;
-    left: 490px;
 }
-.Cle h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Cle p{
-    font-family: 'Times New Roman', Times, serif;
+.Thumbnail{
+	width: 400px;
+	position: relative;
 }
 
-.Bard{
-    position: absolute;
-    text-align: center;
-    top: 970px;
-    left: 870px;
+.Thumbnail .Thumbnail_Description{
+    font-family: 'Times New Roman', 'Times', serif;
+    color: black;
+	position:absolute;
+	bottom:4px;
+	width: 100%;
+	text-align: center;
+	height: 0px;
+				
 }
-.Bard h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Bard p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Dru{
-    position: absolute;
-    text-align: center;
-    top: 970px;
-    left: 1250px;
-}
-.Dru h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Dru p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Fig{
-    position: absolute;
-    text-align: center;
-    top: 1220px;
-    left: 140px;
-}
-.Fig h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Fig p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Monk{
-    position: absolute;
-    text-align: center;
-    top: 1220px;
-    left: 490px;
-}
-.Monk h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Monk p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Pal{
-    position: absolute;
-    text-align: center;
-    top: 1220px;
-    left: 850px;
-}
-.Pal h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Pal p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Ran{
-    position: absolute;
-    text-align: center;
-    top: 1220px;
-    left: 1240px;
-}
-.Ran h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Ran p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Wiz{
-    position: absolute;
-    text-align: center;
-    top: 1470px;
-    left: 140px;
-}
-.Wiz h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Wiz p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.War{
-    position: absolute;
-    text-align: center;
-    top: 1470px;
-    left: 470px;
-}
-.War h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.War p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Sor{
-    position: absolute;
-    text-align: center;
-    top: 1470px;
-    left: 840px;
-}
-.Sor h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Sor p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Art{
-    position: absolute;
-    text-align: center;
-    top: 1470px;
-    left: 1220px;
-}
-.Art h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Art p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Blood{
-    position: absolute;
-    text-align: center;
-    top: 1720px;
-    left: 620px;
-}
-.Blood h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-.Blood p{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-

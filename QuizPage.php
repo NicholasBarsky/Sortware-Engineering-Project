@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--PLEASE NOTE THAT FOR THIS PAGE YOU NEED XAMPP-->
+
 <html>
     <head>
         <meta charset="utf-8">
         <title>Quiz</title>
         <link rel="stylesheet" href="Style_Sheets/style.css">
-        <link rel="php" href="DNDQuiz.php">
+        <link rel="stylesheet" href="Style_Sheets/QuizPageStyle.css">
         <style>
             .div {
                 text-align: center;
@@ -17,12 +17,7 @@
                 color:rgb(0, 0, 0);
                 font-size: 20px;
             }
-            .correct {
-                border-color: green;
-            }
-            .wrong {
-                border-color: red;
-            }
+            
         </style>
 
     </head>
@@ -55,8 +50,8 @@
                 <li><a href = "RacesPage.html">Races</a></li>
                 <li><a href = "ClassesPage.html">Classes</a></li>
                 <li><a href = "BooksPage.html">SourceBooks</a></li>
-                <li><a href = "CampainePage.html">Campaines</a></li>
-                <li><a class="Current" href = "QuizPage.html">Quiz</a></li>
+                <li><a href = "CampainePage.html">Campaigns</a></li>
+                <li><a class="Current" href = "QuizPage.php">Quiz</a></li>
             </ul>
         </nav>
     <div>
