@@ -69,7 +69,7 @@
 
             <li>
 
-                <h3>What does homebrew mean in the context of D&D?','Make your own drinks for a D&D sessio</h3>
+                <h3>What does homebrew mean in the context of D&D?</h3>
 
                 <div>
                     <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -95,7 +95,7 @@
 
             <li>
 
-                <h3>How many classes currently exist within 5e</h3>
+                <h3>How many classes currently exist within 5e?</h3>
 
                 <div>
                     <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
@@ -141,6 +141,32 @@
                 <div>
                     <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
                     <label for="question-5-answers-D">D) 7</label>
+                </div>
+
+            </li>
+
+            <li>
+
+                <h3>At level 3, Warlocks get the pact boons of Pact of the Blade, Pact of the Tome, and Pact of the ___</h3>
+
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+                    <label for="question-6-answers-A">A) Beast</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+                    <label for="question-6-answers-B">B) Forest</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
+                    <label for="question-6-answers-C">C) Arcane</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
+                    <label for="question-6-answers-D">D) Chain</label>
                 </div>
 
             </li>
