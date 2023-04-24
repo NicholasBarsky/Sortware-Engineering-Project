@@ -4,7 +4,7 @@
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:space-around;
-	gap:40px 10px;
+	gap:100px 10px;
 }
 .Title{
     margin-top: 10%;
