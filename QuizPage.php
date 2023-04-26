@@ -54,15 +54,14 @@
                 <li><a class="Current" href = "QuizPage.php">Quiz</a></li>
             </ul>
         </nav>
-    <div>
-    <?php
+        <?php
         //Define parameters needed to connect to SQL
         $user = "root";
         $pword = "gumpy";
         $dbase = "quizdatabase";
         $table = "questionFormat";
 
-        //Connect to SQl database, throw error if it fail
+        //Connect to SQl database, throw error if it fails
         $mydb = new mysqli('localhost', $user, $pword, $dbase);
         if ($mydb->connect_error) {
             die( "Failed to connect to MySQL: " . $mydb->connect_error);
@@ -76,53 +75,218 @@
         $quizArray = mysqli_fetch_all($result);
         shuffle($quizArray);
 
-        //Output question and answers
-        for($i = 0; $i != count($quizArray); $i++) {
+        //Take 2D array and process for human readability
+        $i = 0;
+        $currentQuestion = ($quizArray[$i]);
+        $currentResponses = array_slice($currentQuestion,2,4);
+        shuffle($currentResponses);
+        ?>
+        <div id="page-wrap">
+            <h1></h1>
+            <form action="result.php" method="post" id="quiz">
 
-            //Take 2D array and process for human readability
-            $currentQuestion = ($quizArray[$i]);
-            $currentResponses = array_slice($currentQuestion,2,4);
-            shuffle($currentResponses);
+                <ol>
 
-            //Line break before everything but first question
-            if( $i != 0)
-                print_r("\n");
+                    <li>
 
-            //Question header
-            print_r("Question " . $i+1 . ": " . $currentQuestion[1]);
+                        <h3><?php echo $currentQuestion[1];?></h3>
+                        <label for="question-1-correct"></label>
+                        <input type="hidden" name="question-1-correct" value="<?php echo $currentQuestion[5]; ?>">
+                        <div>
+                            <input type="radio" name="question-1-answers" id="question-1-answers-A" value="<?php echo $currentResponses[0];?>" />
+                            <label for="question-1-answers-A">A) <?php echo $currentResponses[0];?></label>
+                        </div>
 
-            //Possible responses
-            print_r("\n" . "A: ". $currentResponses[0]);
-            print_r("\n" . "B: ". $currentResponses[1]);
-            print_r("\n" . "C: ". $currentResponses[2]);
-            print_r("\n" . "D: ". $currentResponses[3]);
+                        <div>
+                            <input type="radio" name="question-1-answers" id="question-1-answers-B" value="<?php echo $currentResponses[1];?>" />
+                            <label for="question-1-answers-B">B) <?php echo $currentResponses[1];?></label>
+                        </div>
 
-            //Correct response
-            print_r("\n" . "Answer: ". $currentQuestion[5]);
-        }
-    ?>
-    </div>
+                        <div>
+                            <input type="radio" name="question-1-answers" id="question-1-answers-C" value="<?php echo $currentResponses[2];?>" />
+                            <label for="question-1-answers-C">C) <?php echo $currentResponses[2];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-1-answers" id="question-1-answers-D" value="<?php echo $currentResponses[3];?>" />
+                            <label for="question-1-answers-D">D) <?php echo $currentResponses[3];?></label>
+                        </div>
+                        <?php
+                        $i++;
+                        $currentQuestion = ($quizArray[$i]);
+                        $currentResponses = array_slice($currentQuestion,2,4);
+                        shuffle($currentResponses);
+                        ?>
+                    </li>
+
+                    <li>
+
+                        <h3><?php echo $currentQuestion[1];?></h3>
+                        <label for="question-2-correct"></label>
+                        <input type="hidden" name="question-2-correct" value="<?php echo $currentQuestion[5]; ?>">
+                        <div>
+                            <input type="radio" name="question-2-answers" id="question-2-answers-A" value="<?php echo $currentResponses[0];?>" />
+                            <label for="question-2-answers-A">A) <?php echo $currentResponses[0];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-2-answers" id="question-2-answers-B" value="<?php echo $currentResponses[1];?>" />
+                            <label for="question-2-answers-B">B) <?php echo $currentResponses[1];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-2-answers" id="question-2-answers-C" value="<?php echo $currentResponses[2];?>" />
+                            <label for="question-2-answers-C">C) <?php echo $currentResponses[2];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-2-answers" id="question-2-answers-D" value="<?php echo $currentResponses[3];?>" />
+                            <label for="question-2-answers-D">D) <?php echo $currentResponses[3];?></label>
+                        </div>
+                        <?php
+                        $i++;
+                        $currentQuestion = ($quizArray[$i]);
+                        $currentResponses = array_slice($currentQuestion,2,4);
+                        shuffle($currentResponses);
+                        ?>
+                    </li>
+
+                    <li>
+
+                        <h3><?php echo $currentQuestion[1];?></h3>
+                        <label for="question-3-correct"></label>
+                        <input type="hidden" name="question-3-correct" value="<?php echo $currentQuestion[5]; ?>">
+
+                        <div>
+                            <input type="radio" name="question-3-answers" id="question-3-answers-A" value="<?php echo $currentResponses[0];?>" />
+                            <label for="question-3-answers-A">A) <?php echo $currentResponses[0];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-3-answers" id="question-3-answers-B" value="<?php echo $currentResponses[1];?>" />
+                            <label for="question-3-answers-B">B) <?php echo $currentResponses[1];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-3-answers" id="question-3-answers-C" value="<?php echo $currentResponses[2];?>" />
+                            <label for="question-3-answers-C">C) <?php echo $currentResponses[2];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-3-answers" id="question-3-answers-D" value="<?php echo $currentResponses[3];?>" />
+                            <label for="question-3-answers-D">D) <?php echo $currentResponses[3];?></label>
+                        </div>
+                        <?php
+                        $i++;
+                        $currentQuestion = ($quizArray[$i]);
+                        $currentResponses = array_slice($currentQuestion,2,4);
+                        shuffle($currentResponses);
+                        ?>
+                    </li>
+
+                    <li>
+
+                        <h3><?php echo $currentQuestion[1];?></h3>
+                        <label for="question-4-correct"></label>
+                        <input type="hidden" name="question-4-correct" value="<?php echo $currentQuestion[5]; ?>">
+                        <div>
+                            <input type="radio" name="question-4-answers" id="question-4-answers-A" value="<?php echo $currentResponses[0];?>" />
+                            <label for="question-4-answers-A">A) <?php echo $currentResponses[0];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-4-answers" id="question-4-answers-B" value="<?php echo $currentResponses[1];?>" />
+                            <label for="question-4-answers-B">B) <?php echo $currentResponses[1];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-4-answers" id="question-4-answers-C" value="<?php echo $currentResponses[2];?>" />
+                            <label for="question-4-answers-C">C) <?php echo $currentResponses[2];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-4-answers" id="question-4-answers-D" value="<?php echo $currentResponses[3];?>" />
+                            <label for="question-4-answers-D">D) <?php echo $currentResponses[3];?></label>
+                        </div>
+                        <?php
+                        $i++;
+                        $currentQuestion = ($quizArray[$i]);
+                        $currentResponses = array_slice($currentQuestion,2,4);
+                        shuffle($currentResponses);
+                        ?>
+                    </li>
+
+                    <li>
+
+                        <h3><?php echo $currentQuestion[1];?></h3>
+                        <label for="question-5-correct"></label>
+                        <input type="hidden" name="question-5-correct" value="<?php echo $currentQuestion[5]; ?>">
+                        <div>
+                            <input type="radio" name="question-5-answers" id="question-5-answers-A" value="<?php echo $currentResponses[0];?>" />
+                            <label for="question-5-answers-A">A) <?php echo $currentResponses[0];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-5-answers" id="question-5-answers-B" value="<?php echo $currentResponses[1];?>" />
+                            <label for="question-5-answers-B">B) <?php echo $currentResponses[1];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-5-answers" id="question-5-answers-C" value="<?php echo $currentResponses[2];?>" />
+                            <label for="question-5-answers-C">C) <?php echo $currentResponses[2];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-5-answers" id="question-5-answers-D" value="<?php echo $currentResponses[3];?>" />
+                            <label for="question-5-answers-D">D) <?php echo $currentResponses[3];?></label>
+                        </div>
+                        <?php
+                        $i++;
+                        $currentQuestion = ($quizArray[$i]);
+                        $currentResponses = array_slice($currentQuestion,2,4);
+                        shuffle($currentResponses);
+                        ?>
+                    </li>
+
+                    <li>
+
+                        <h3><?php echo $currentQuestion[1];?></h3>
+                        <label for="question-6-correct"></label>
+                        <input type="hidden" name="question-6-correct" value="<?php echo $currentQuestion[5]; ?>">
+
+                        <div>
+                            <input type="radio" name="question-6-answers" id="question-6-answers-A" value="<?php echo $currentResponses[0];?>" />
+                            <label for="question-6-answers-A">A) <?php echo $currentResponses[0];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-6-answers" id="question-6-answers-B" value="<?php echo $currentResponses[1];?>" />
+                            <label for="question-6-answers-B">B) <?php echo $currentResponses[1];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-6-answers" id="question-6-answers-C" value="<?php echo $currentResponses[2];?>" />
+                            <label for="question-6-answers-C">C) <?php echo $currentResponses[2];?></label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="question-6-answers" id="question-6-answers-D" value="<?php echo $currentResponses[3];?>" />
+                            <label for="question-6-answers-D">D) <?php echo $currentResponses[3];?></label>
+                        </div>
+                    </li>
+
+                </ol>
+
+                <input type="submit" value="Submit" class="submitbtn" />
+
+            </form>
+
+        </div>
 
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/bqbuyeHSmFo?controls=0&playsinline=1&autoplay=1&mute=1&playlist=bqbuyeHSmFo&loop=1"></iframe>
             <!--name of video used: Beautiful Eye Fantasy Red Dragon 🔴 Live Wallpaper-->
             <!--name of youtuber: Buddy Star -->
         </div>
-            
-        <div class="BUTTONS">
-            <input id="Button1"type="button" value="" onClick="checkAnswer(this)">
-            <input id="Button2"type="button" value="" onClick="checkAnswer(this)">
-            <input id="Button3"type="button" value="" onClick="checkAnswer(this)">
-            <input id="Button4"type="button" value="" onClick="checkAnswer(this)">
-            
-        </div>
-        <div>
-            <span id="score">0</span> / <span id="outOf">0</span>
-        </div>
-        <div>
-            <input id="next" type="button" value="Next" onClick="nextButton()">
-        </div>
-
-
     </body>
 </html>
