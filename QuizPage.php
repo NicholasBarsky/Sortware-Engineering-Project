@@ -18,6 +18,7 @@
                 font-size: 20px;
             }
             
+            
         </style>
 
     </head>
@@ -81,12 +82,21 @@
         $currentResponses = array_slice($currentQuestion,2,4);
         shuffle($currentResponses);
         ?>
-        <div id="page-wrap">
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/bqbuyeHSmFo?controls=0&playsinline=1&autoplay=1&mute=1&playlist=bqbuyeHSmFo&loop=1"></iframe>
+            <!--name of video used: Beautiful Eye Fantasy Red Dragon 🔴 Live Wallpaper-->
+            <!--name of youtuber: Buddy Star -->
+        </div>
+
+        
+        
+        <div class="container">
             <h1></h1>
             <form action="result.php" method="post" id="quiz">
 
                 <ol>
-
+                    <h1>Test your Knowledge with a quiz for Dungeons &amp; Dragons</h1>
                     <li>
 
                         <h3><?php echo $currentQuestion[1];?></h3>
@@ -276,17 +286,14 @@
                     </li>
 
                 </ol>
-
+                <div class="Submit">
                 <input type="submit" value="Submit" class="submitbtn" />
-
+                </div>
             </form>
 
         </div>
 
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/bqbuyeHSmFo?controls=0&playsinline=1&autoplay=1&mute=1&playlist=bqbuyeHSmFo&loop=1"></iframe>
-            <!--name of video used: Beautiful Eye Fantasy Red Dragon 🔴 Live Wallpaper-->
-            <!--name of youtuber: Buddy Star -->
-        </div>
+       
+       
     </body>
 </html>

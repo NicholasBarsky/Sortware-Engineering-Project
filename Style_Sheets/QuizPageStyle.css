@@ -1,0 +1,22 @@
+
+h1{
+    text-align: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    right: 150px;
+}
+ol{
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    padding: 10px;
+}
+.Submit{
+    text-align: center;
+    padding: 20px;
+}
+.Submit{
+    height: 100px;
+    width: 200px;
+}
+
