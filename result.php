@@ -3,11 +3,23 @@
 <html>
 
 <head>
-    <meta charset=UTF-8" />
+    <meta charset="UTF-8"/>
 
     <title>PHP Quiz</title>
 
-    <link rel="stylesheet" type="text/css" href="Style_Sheets/style.css" />
+    <link rel="stylesheet" type="text/css" href="Style_Sheets/style.css"/>
+    
+    <style>
+        .Go-Back{
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 
 <body>
@@ -45,6 +57,10 @@
 
     ?>
 
+</div>
+                   
+ <div class="Go-Back">
+    <a href = "QuizPage.php">Try Again!!!!</a>
 </div>
 
 </body>
