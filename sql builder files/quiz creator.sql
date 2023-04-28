@@ -11,7 +11,7 @@ CREATE TABLE questionFormat(
 --@block
 INSERT INTO questionformat(question,choice1,choice2,choice3,answer,answerExpl)
 values('What type of die is used to do skill checks?','36 sided','18 sided','10 sided','20 sided','20 sided die are used to roll for skill checks.'),
-('How many different playable races currently exist in the lastest edition of D&D?','17 races','25 races','39 races','81 races','There are 81 races visible on the race page of this website.'),
+('How many different playable races currently exist in the latest edition of D&D?','17 races','25 races','39 races','81 races','There are 81 races visible on the race page of this website.'),
 ('What does homebrew mean in the context of D&D?','Make your own drinks for a D&D session','Modify your nintendo gaming system','Having the Dungeon Master create a building for the players to live in','Custom campaigns/additions made by the players','Homebrew refers to creating custom campaigns for your D&D roleplaying session.'),
 ('How many classes currently exist within 5e?','6 classes','8 classes','16 classes','13 classes','13 different classes are visible on the classes page of this website.'),
 ('Which of these classes is not from the original set of D&D Classes?','Warlock','Cleric','Sorcerer','Blood Hunter','The Blood Hunter is a homebrew class that was originally made by the D&D podcast Critical Role'),
