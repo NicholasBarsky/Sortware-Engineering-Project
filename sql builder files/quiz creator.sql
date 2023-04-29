@@ -22,7 +22,7 @@ values('What type of die is used to do skill checks?','36 sided','18 sided','10 
 ('What attribute modifies initiative?','Strength','Constitution','Wisdom','Dexterity','Dexterity, which refers to agility or nimbleness, helps with initiative.'),
 ('What animal is the Grung Race based off of?','Turtles','Beavers','Cats','Frogs','Grungs, from the One Grung Above source book, are poisonous frogs.'),
 ('Which campaign book is based off the Netflix Series Stranger Things?','Out of the Abyss','Guide to the Upside Down','Demogorgon Hunters','Hunt for the Thessalhydra','Hunt for the Thessalhydra is a Netflix inspired campaign book which can be seen on the Campaign books page.'),
-('Which class is known for shapeshifting into various animals?','Sorcerer','Warlock','Shifter','Druid','Demo Explanation'),
+('Which class is known for shapeshifting into various animals?','Sorcerer','Warlock','Shifter','Druid','Druids are a class closely attuned with nature, including animals.'),
 ('What is D&D?','A popular RPG videogame set in a Fantasy World.','A Fantasy Boardgame','A Fantasy Movie Franchise','The Most Popular Tabletop RolePlaying Game in the World!','This one should be somewhat obvious, but D&D is the most popular tabletop roleplaying game in the world.'),
 ('What sided dice is used to roll for initiative?','12 side die','6 sided die','36 sided die','20 sided die','20 sided die are used to roll for initiative.');
 --@block
