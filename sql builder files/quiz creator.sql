@@ -25,6 +25,21 @@ values('What type of die is used to do skill checks?','36 sided','18 sided','10 
 ('Which class is known for shapeshifting into various animals?','Sorcerer','Warlock','Shifter','Druid','Druids are a class closely attuned with nature, including animals.'),
 ('What is D&D?','A popular RPG videogame set in a Fantasy World.','A Fantasy Boardgame','A Fantasy Movie Franchise','The Most Popular Tabletop RolePlaying Game in the World!','This one should be somewhat obvious, but D&D is the most popular tabletop roleplaying game in the world.'),
 ('What sided dice is used to roll for initiative?','12 sided die','6 sided die','36 sided die','20 sided die','20 sided die are used to roll for initiative.'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
+('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video'),
 ('Whos head is in the toilet bowl?','Brandon','Dr. Kumar','Nic','Gumuchian','from music video');
 --@block
 Select * from questionformat;
