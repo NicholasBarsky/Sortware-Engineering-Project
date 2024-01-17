@@ -1,0 +1,1 @@
+This is our software engineering project. It features a D&D website that provides trivia, information, and the official links to purchase various D&D campaigns, expansions, and books to enhance your experience. Additionally, there is a quiz that tests your knowledge of the source material.
